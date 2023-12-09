@@ -1,0 +1,85 @@
+1. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP1.1:
+It works on the textual format.
+There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+It uses requests resource Inlining for use getting multiple pages.
+
+HTTP2:
+It works on the binary protocol.
+It allows multiplexing so one TCP connection is required for multiple requests.
+It uses PUSH frame by server that collects all multiple pages.
+
+2. Write a blog about objects and its internal representation in Javascript
+In JavaScript, objects are a composite data type that allows developers to store and organize data in key-value pairs. Unlike primitive data types such as numbers or strings, objects can represent more complex structures and are essential for creating flexible and dynamic applications.
+
+// Object Example program
+const car = {
+  make: 'Toyota',
+  model: 'Camry',
+  year: 2022,
+  color: 'Blue'
+};
+
+4.
+IP Address (Internet Protocol Address):
+An IP address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. IP addresses serve two primary functions: host or network interface identification and location addressing.
+
+Port:
+A port is a communication endpoint identified by a 16-bit unsigned number, thus ranging from 0 to 65535. Ports help distinguish different services or applications running on a single device.
+
+
+Certainly! Let's briefly explore each of the topics you mentioned: IP address, port, HTTP methods, and MAC address.
+
+IP Address (Internet Protocol Address):
+An IP address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. IP addresses serve two primary functions: host or network interface identification and location addressing. There are two types of IP addresses:
+
+IPv4 (Internet Protocol version 4):
+
+Consists of four sets of numbers separated by dots (e.g., 192.168.0.1).
+Limited to around 4.3 billion unique addresses, which has led to the adoption of IPv6.
+IPv6 (Internet Protocol version 6):
+
+Uses hexadecimal notation and provides a significantly larger address space.
+Designed to address the exhaustion of IPv4 addresses and support the growing number of devices connected to the internet.
+IP addresses play a crucial role in routing data across networks, allowing devices to communicate with each other.
+
+Port:
+A port is a communication endpoint identified by a 16-bit unsigned number, thus ranging from 0 to 65535. Ports help distinguish different services or applications running on a single device. Ports are categorized into three ranges:
+
+Well-known Ports (0-1023):
+
+Reserved for system services and commonly used protocols (e.g., HTTP on port 80, HTTPS on port 443).
+Registered Ports (1024-49151):
+
+Assigned by the Internet Assigned Numbers Authority (IANA) for specific services.
+Dynamic or Private Ports (49152-65535):
+
+Used for dynamic or private services and applications.
+When data is sent over a network, it is directed to a specific IP address and port number to reach the intended service on a device.
+
+HTTP Methods (Hypertext Transfer Protocol Methods):
+HTTP methods, also known as HTTP verbs, represent the actions that can be performed on a resource. Common HTTP methods include:
+GET:
+Retrieve data from a specified resource.
+
+POST:
+Submit data to be processed to a specified resource.
+
+PUT:
+Update a resource or create a new resource if it doesn't exist.
+
+DELETE:
+Remove a specified resource.
+
+PATCH:
+Apply partial modifications to a resource.
+
+HEAD:
+Retrieve headers from a specified resource without the actual data.
+
+MAC Address (Media Access Control Address):
+MAC addresses are typically expressed as a series of six two-digit hexadecimal numbers separated by colons (e.g., 00:1A:2B:3C:4D:5E).
+
+
+
